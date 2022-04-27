@@ -16,11 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from laptop import views
-from about.views import about
+from computer.views import computer
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('laptop/', views.laptop),
-    path('about/', about),
+    path('computer/', computer),
 
 ]
